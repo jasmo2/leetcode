@@ -16,6 +16,7 @@ def copyRandomList(head)
   pointer = head
   head_copy = nil
 
+  # Create a Copy without the random pointers.
   until pointer.nil?
     next_pointer = pointer.next
     copy = Node.new(pointer.val)
